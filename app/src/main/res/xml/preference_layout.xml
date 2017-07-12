@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="user_name"
+        android:title="@string/remember_username_title"
+        android:summary="@string/remember_username_summary">
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:key="remember_login"
+        android:title="@string/remember_login_title"
+        android:summary="@string/remember_login_summary">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="remember_password"
+        android:title="@string/remember_password_title"
+        android:summary="@string/remember_password_summary">
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:key="language_preference"
+        android:title="@string/remember_language_title"
+        android:entries="@array/languages"
+        android:entryValues="@array/languages">
+    </ListPreference>
+
+</PreferenceScreen>

@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">CourseProject</string>
+    <string name="geofence_not_available">Geofence is not available here, sorry</string>
+    <string name="geofence_too_many_geofences">Too many geofences, try to delete some of them</string>
+    <string name="geofence_too_many_pending_intents">Too many pending requests, wait a little</string>
+    <string name="remember_login_title">login autotype</string>
+    <string name="remember_login_summary">Should the app remember your login?</string>
+    <string name="remember_password_title">password autotype</string>
+    <string name="remember_password_summary">Should the app remember your password?</string>
+    <string name="remember_username_title">Remember user\'s name</string>
+    <string name="remember_username_summary">Should the app remember user\'s name?</string>
+    <string name="remember_language_title">Language preferences</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="last_update_time_label">Last location update time</string>
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="geofence_transition_entered">Started countering wh at</string>
+    <string name="geofence_transition_exited">Stopped countering wh at</string>
+    <string name="unknown_geofence_transition">Unknown transitions?</string>
+    <string name="insufficient_permissions">No enough permissions!</string>
+    <string name="geofences_added">Geofences have been added</string>
+    <string name="geofences_removed">Geofences have been removed</string>
+    <string-array name="languages">
+        RUSSIAN
+        ENGLISH
+    </string-array>
 </resources>
